@@ -1,0 +1,21 @@
+[0] Config.pm:304> INFO - This is Biber 2.14 (beta)
+[0] Config.pm:307> INFO - Logfile is 'out/main.blg'
+[49] biber:322> INFO - === Wed Dec 15, 2021, 09:56:22
+[64] Biber.pm:415> INFO - Reading 'out/main.bcf'
+[120] Biber.pm:943> INFO - Found 44 citekeys in bib section 0
+[131] Biber.pm:4256> INFO - Processing section 0
+[131] Utils.pm:75> INFO - Globbing data source 'biblist.bib'
+[132] Utils.pm:91> INFO - Globbed data source 'biblist.bib' to biblist.bib
+[138] Biber.pm:4455> INFO - Looking for bibtex format file 'biblist.bib' for section 0
+[145] bibtex.pm:1653> INFO - LaTeX decoding ...
+[190] bibtex.pm:1471> INFO - Found BibTeX data source 'biblist.bib'
+[193] Utils.pm:293> WARN - Possible typo (case mismatch) between datasource keys: 'Hall_effekt' and 'Hall_Effekt' in file 'biblist.bib'
+[222] Utils.pm:293> WARN - Entry 'Grundlagen_Filtertechnik' (biblist.bib): Invalid format '30.04.2021' of date field 'urldate' - ignoring
+[239] Utils.pm:293> WARN - year field '16.04.2021' in entry 'Schulz' is not an integer - this will probably not sort properly.
+[283] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'variable = shifted' with 'variable = non-ignorable'
+[283] UCollate.pm:68> INFO - Overriding locale 'de-DE' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[283] Biber.pm:4084> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'de-DE'
+[283] Biber.pm:4090> INFO - No sort tailoring available for locale 'de-DE'
+[300] bbl.pm:652> INFO - Writing 'out/main.bbl' with encoding 'UTF-8'
+[314] bbl.pm:755> INFO - Output to out/main.bbl
+[314] Biber.pm:128> INFO - WARNINGS: 3

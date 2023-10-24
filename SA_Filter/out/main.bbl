@@ -1,0 +1,866 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{2758}{report}{}
+      \list{institution}{1}{%
+        {DIN}%
+      }
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{DIN EN ISO 2758 Papier – Bestimmung der Berstfestigkeit}
+      \field{type}{techreport}
+      \field{year}{2014}
+    \endentry
+    \entry{Staubabscheidung}{book}{}
+      \name{author}{1}{}{%
+        {{hash=81ee79e99cebf49247aed66dda7323ac}{%
+           family={Löffler\bibnamedelima F.},
+           familyi={L\bibinitperiod\bibinitdelim F\bibinitperiod},
+           given={Flatt\bibnamedelima W.},
+           giveni={F\bibinitperiod\bibinitdelim W\bibinitperiod},
+           suffix={Dietrich\bibnamedelima H.},
+           suffixi={D\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \strng{namehash}{81ee79e99cebf49247aed66dda7323ac}
+      \strng{fullhash}{81ee79e99cebf49247aed66dda7323ac}
+      \strng{bibnamehash}{81ee79e99cebf49247aed66dda7323ac}
+      \strng{authorbibnamehash}{81ee79e99cebf49247aed66dda7323ac}
+      \strng{authornamehash}{81ee79e99cebf49247aed66dda7323ac}
+      \strng{authorfullhash}{81ee79e99cebf49247aed66dda7323ac}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{deutsch}
+      \field{title}{Staubabscheidung mit Schlauchfiltern und Taschenfiltern}
+      \field{year}{1991}
+      \field{dateera}{ce}
+    \endentry
+    \entry{AbscheidungPartikel}{book}{}
+      \name{author}{1}{}{%
+        {{hash=99fa21e8fdb97d9d9179e26d5cec2902}{%
+           family={Löffler},
+           familyi={L\bibinitperiod},
+           given={F.},
+           giveni={F\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Chemie-Ing.-Technik}%
+      }
+      \strng{namehash}{99fa21e8fdb97d9d9179e26d5cec2902}
+      \strng{fullhash}{99fa21e8fdb97d9d9179e26d5cec2902}
+      \strng{bibnamehash}{99fa21e8fdb97d9d9179e26d5cec2902}
+      \strng{authorbibnamehash}{99fa21e8fdb97d9d9179e26d5cec2902}
+      \strng{authornamehash}{99fa21e8fdb97d9d9179e26d5cec2902}
+      \strng{authorfullhash}{99fa21e8fdb97d9d9179e26d5cec2902}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Die Abscheidung von Partikeln aus Gasen in Faserfiltern}
+      \field{year}{1980}
+    \endentry
+    \entry{immission}{book}{}
+      \name{author}{1}{}{%
+        {{hash=50596fea88be060c53c97e751f631dcb}{%
+           family={Förtsch\bibnamedelima G.},
+           familyi={F\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Meinholz\bibnamedelima H.},
+           giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{50596fea88be060c53c97e751f631dcb}
+      \strng{fullhash}{50596fea88be060c53c97e751f631dcb}
+      \strng{bibnamehash}{50596fea88be060c53c97e751f631dcb}
+      \strng{authorbibnamehash}{50596fea88be060c53c97e751f631dcb}
+      \strng{authornamehash}{50596fea88be060c53c97e751f631dcb}
+      \strng{authorfullhash}{50596fea88be060c53c97e751f631dcb}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{deutsch}
+      \field{title}{Handbuch Betrieblicher Immissionsschutz 2. Aufl.}
+      \field{year}{2021}
+      \field{dateera}{ce}
+    \endentry
+    \entry{transportvorgänge}{book}{}
+      \name{author}{1}{}{%
+        {{hash=9e9e76d6971fcf1ba1b23d36d78e6074}{%
+           family={M.},
+           familyi={M\bibinitperiod},
+           given={Kraume},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{9e9e76d6971fcf1ba1b23d36d78e6074}
+      \strng{fullhash}{9e9e76d6971fcf1ba1b23d36d78e6074}
+      \strng{bibnamehash}{9e9e76d6971fcf1ba1b23d36d78e6074}
+      \strng{authorbibnamehash}{9e9e76d6971fcf1ba1b23d36d78e6074}
+      \strng{authornamehash}{9e9e76d6971fcf1ba1b23d36d78e6074}
+      \strng{authorfullhash}{9e9e76d6971fcf1ba1b23d36d78e6074}
+      \field{extraname}{1}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Transportvorgänge in der Verfahrenstechnik}
+      \field{year}{2019}
+    \endentry
+    \entry{vdi3677_2}{report}{}
+      \list{institution}{1}{%
+        {VDI}%
+      }
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{VDI 3677 Blatt 2 - Filternde Abscheider - Tiefenfilter aus Fasern}
+      \field{type}{techreport}
+      \field{year}{2004}
+    \endentry
+    \entry{frak_filter}{book}{}
+      \name{author}{1}{}{%
+        {{hash=e116f6955039e40c3c7ffc4a3d9255f7}{%
+           family={Fritz\bibnamedelima W.},
+           familyi={F\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={Kern\bibnamedelima H.},
+           giveni={K\bibinitperiod\bibinitdelim H\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Vogel}%
+      }
+      \strng{namehash}{e116f6955039e40c3c7ffc4a3d9255f7}
+      \strng{fullhash}{e116f6955039e40c3c7ffc4a3d9255f7}
+      \strng{bibnamehash}{e116f6955039e40c3c7ffc4a3d9255f7}
+      \strng{authorbibnamehash}{e116f6955039e40c3c7ffc4a3d9255f7}
+      \strng{authornamehash}{e116f6955039e40c3c7ffc4a3d9255f7}
+      \strng{authorfullhash}{e116f6955039e40c3c7ffc4a3d9255f7}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{deutsch}
+      \field{title}{Reinigung von Abgasen}
+      \field{year}{1992}
+      \field{dateera}{ce}
+    \endentry
+    \entry{zyklon}{book}{}
+      \name{author}{1}{}{%
+        {{hash=08d9dac565c652ca5cd2ae73e21f44d3}{%
+           family={M.},
+           familyi={M\bibinitperiod},
+           given={Stieß},
+           giveni={S\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer}%
+      }
+      \strng{namehash}{08d9dac565c652ca5cd2ae73e21f44d3}
+      \strng{fullhash}{08d9dac565c652ca5cd2ae73e21f44d3}
+      \strng{bibnamehash}{08d9dac565c652ca5cd2ae73e21f44d3}
+      \strng{authorbibnamehash}{08d9dac565c652ca5cd2ae73e21f44d3}
+      \strng{authornamehash}{08d9dac565c652ca5cd2ae73e21f44d3}
+      \strng{authorfullhash}{08d9dac565c652ca5cd2ae73e21f44d3}
+      \field{extraname}{2}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{deutsch}
+      \field{title}{Mechanische Verfahrenstechnik}
+      \field{year}{1994}
+      \field{dateera}{ce}
+    \endentry
+    \entry{venturi}{book}{}
+      \name{author}{1}{}{%
+        {{hash=b109e1a83e2ef357b32d5cde805f137b}{%
+           family={Görner\bibnamedelima K.},
+           familyi={G\bibinitperiod\bibinitdelim K\bibinitperiod},
+           given={Hübner\bibnamedelima K.},
+           giveni={H\bibinitperiod\bibinitdelim K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{b109e1a83e2ef357b32d5cde805f137b}
+      \strng{fullhash}{b109e1a83e2ef357b32d5cde805f137b}
+      \strng{bibnamehash}{b109e1a83e2ef357b32d5cde805f137b}
+      \strng{authorbibnamehash}{b109e1a83e2ef357b32d5cde805f137b}
+      \strng{authornamehash}{b109e1a83e2ef357b32d5cde805f137b}
+      \strng{authorfullhash}{b109e1a83e2ef357b32d5cde805f137b}
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Gasreinigung und Luftreinhaltung}
+      \field{year}{2002}
+    \endentry
+    \entry{filterelemente}{report}{}
+      \list{institution}{1}{%
+        {VDMA}%
+      }
+      \field{sortinit}{2}
+      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{labeltitlesource}{title}
+      \field{title}{Allgemeine Lufttechnik - VDMA Luftfilterinformation (2019-10) - Filterklassen der Raumluft- und Entstaubungstechnik im Überblick}
+      \field{type}{techreport}
+      \field{year}{2014}
+    \endentry
+    \entry{vdi3677_1}{report}{}
+      \list{institution}{1}{%
+        {VDI}%
+      }
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{VDI 3677 Blatt 1 - Filternde Abscheider - Oberflächenfilter}
+      \field{type}{techreport}
+      \field{year}{2010}
+    \endentry
+    \entry{Grundlagen_Filtertechnik}{online}{}
+      \field{sortinit}{3}
+      \field{sortinithash}{a37a8ef248a93c322189792c34fc68c9}
+      \field{labeltitlesource}{title}
+      \field{title}{Grundlagen Filtertechnik}
+      \verb{urlraw}
+      \verb https://www.luftfilterbau.de/cms/upload/produkte/Grundlagen/PDF/Filtertechnik_0I00.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.luftfilterbau.de/cms/upload/produkte/Grundlagen/PDF/Filtertechnik_0I00.pdf
+      \endverb
+      \warn{\item Entry 'Grundlagen_Filtertechnik' (biblist.bib): Invalid format '30.04.2021' of date field 'urldate' - ignoring}
+    \endentry
+    \entry{faser_elektro}{article}{}
+      \name{author}{1}{}{%
+        {{hash=08a61fc294efdb330ef6872e43df12db}{%
+           family={H.\bibnamedelimi Brauer},
+           familyi={H\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={S.\bibnamedelimi Daniel},
+           giveni={S\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \strng{namehash}{08a61fc294efdb330ef6872e43df12db}
+      \strng{fullhash}{08a61fc294efdb330ef6872e43df12db}
+      \strng{bibnamehash}{08a61fc294efdb330ef6872e43df12db}
+      \strng{authorbibnamehash}{08a61fc294efdb330ef6872e43df12db}
+      \strng{authornamehash}{08a61fc294efdb330ef6872e43df12db}
+      \strng{authorfullhash}{08a61fc294efdb330ef6872e43df12db}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{-}
+      \field{title}{Untersuchung der Staubabscheidung in einer Kombination von Faser- und Elektrofilter}
+      \field{year}{1994}
+    \endentry
+    \entry{16890}{report}{}
+      \list{institution}{1}{%
+        {DIN}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{DIN EN ISO 16890-1 Luftfilter für die allgemeine Raumlufttechnik - Teil 1: Technische Bestimmungen, Anforderungen und Effizienzklassifizierungssystem, basierend auf dem Feinstaubabscheidegrad (ePM)}
+      \field{type}{techreport}
+      \field{year}{2019}
+    \endentry
+    \entry{altneu}{online}{}
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{PDF 49 anstatt 9 Filterklassen - Die Luftfilternorm ISO 16890 in der Übersicht (robatherm GmbH + Co. KG)}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.robatherm.com/de/system/files/robatherm_ISO16890_deu.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.robatherm.com/de/system/files/robatherm_ISO16890_deu.pdf
+      \endverb
+    \endentry
+    \entry{1822}{report}{}
+      \list{institution}{1}{%
+        {DIN}%
+      }
+      \field{sortinit}{4}
+      \field{sortinithash}{e071e0bcb44634fab398d68ad04e69f4}
+      \field{labeltitlesource}{title}
+      \field{title}{DIN EN 1822-1 Schwebstofffilter (EPA, HEPA und ULPA) - Teil 1: Klassifikation, Leistungsprüfung, Kennzeichnung}
+      \field{type}{techreport}
+      \field{year}{2019}
+    \endentry
+    \entry{tavg}{book}{}
+      \name{author}{1}{}{%
+        {{hash=8bfcc68694e6ed17628af52ff2e835ae}{%
+           family={Bohne},
+           familyi={B\bibinitperiod},
+           given={D.},
+           giveni={D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{8bfcc68694e6ed17628af52ff2e835ae}
+      \strng{fullhash}{8bfcc68694e6ed17628af52ff2e835ae}
+      \strng{bibnamehash}{8bfcc68694e6ed17628af52ff2e835ae}
+      \strng{authorbibnamehash}{8bfcc68694e6ed17628af52ff2e835ae}
+      \strng{authornamehash}{8bfcc68694e6ed17628af52ff2e835ae}
+      \strng{authorfullhash}{8bfcc68694e6ed17628af52ff2e835ae}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Technischer Ausbau von Gebäuden 10. Aufl.}
+      \field{year}{2014}
+    \endentry
+    \entry{16798}{report}{}
+      \list{institution}{1}{%
+        {DIN}%
+      }
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labeltitlesource}{title}
+      \field{title}{DIN EN 16798-3 Energetische Bewertung von Gebäuden - Lüftung von Gebäuden - Teil3: Lüftung von Nichtwohngebäuden}
+      \field{type}{techreport}
+      \field{year}{2017}
+    \endentry
+    \entry{i40_instandhaltung}{article}{}
+      \name{author}{1}{}{%
+        {{hash=d0bdabd94556f7482dbbbc77999aa0b6}{%
+           family={Wehle\bibnamedelima H.},
+           familyi={W\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={Dietel\bibnamedelima M.},
+           giveni={D\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \strng{namehash}{d0bdabd94556f7482dbbbc77999aa0b6}
+      \strng{fullhash}{d0bdabd94556f7482dbbbc77999aa0b6}
+      \strng{bibnamehash}{d0bdabd94556f7482dbbbc77999aa0b6}
+      \strng{authorbibnamehash}{d0bdabd94556f7482dbbbc77999aa0b6}
+      \strng{authornamehash}{d0bdabd94556f7482dbbbc77999aa0b6}
+      \strng{authorfullhash}{d0bdabd94556f7482dbbbc77999aa0b6}
+      \field{sortinit}{5}
+      \field{sortinithash}{5dd416adbafacc8226114bc0202d5fdd}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Informatik Spektrum - Springer-Verlag}
+      \field{number}{3}
+      \field{title}{Industrie 4.0 - Lösung zur Optimierung von Instandhaltungsprozessen}
+      \field{volume}{38}
+      \field{year}{2015}
+    \endentry
+    \entry{prusa}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Prusa Research Filament}
+      \field{urlday}{10}
+      \field{urlmonth}{4}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://shop.prusa3d.com/en/16-filament?
+      \endverb
+      \verb{url}
+      \verb https://shop.prusa3d.com/en/16-filament?
+      \endverb
+    \endentry
+    \entry{gebauto}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ff196367e74560d1de5af18dd423bb3c}{%
+           family={Lauckner\bibnamedelima G.},
+           familyi={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Krimmling\bibnamedelima J.},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod}}}%
+      }
+      \strng{namehash}{ff196367e74560d1de5af18dd423bb3c}
+      \strng{fullhash}{ff196367e74560d1de5af18dd423bb3c}
+      \strng{bibnamehash}{ff196367e74560d1de5af18dd423bb3c}
+      \strng{authorbibnamehash}{ff196367e74560d1de5af18dd423bb3c}
+      \strng{authornamehash}{ff196367e74560d1de5af18dd423bb3c}
+      \strng{authorfullhash}{ff196367e74560d1de5af18dd423bb3c}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{deutsch}
+      \field{title}{Raum- und Gebäudeautomation für Architekten und Ingenieure}
+      \field{year}{2020}
+      \field{dateera}{ce}
+    \endentry
+    \entry{61158-1}{report}{}
+      \list{institution}{1}{%
+        {DIN}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Industrielle Kommunikationsnetze – Feldbusse – Teil 1: Überblick und Leitfaden zu den Normen der Reihen IEC 61158 und IEC 61784}
+      \field{type}{techreport}
+      \field{year}{2020}
+    \endentry
+    \entry{osi}{report}{}
+      \list{institution}{1}{%
+        {ITU}%
+      }
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{ITU-T X.200 Data Networks and open System communications - Open System Interconnection - Model and Notation}
+      \field{type}{techreport}
+      \field{year}{1994}
+    \endentry
+    \entry{ki}{book}{}
+      \name{author}{1}{}{%
+        {{hash=802ea2d9d4309558c08c30166a24f4b8}{%
+           family={Paaß\bibnamedelima G.},
+           familyi={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={Hecker\bibnamedelima D.},
+           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{802ea2d9d4309558c08c30166a24f4b8}
+      \strng{fullhash}{802ea2d9d4309558c08c30166a24f4b8}
+      \strng{bibnamehash}{802ea2d9d4309558c08c30166a24f4b8}
+      \strng{authorbibnamehash}{802ea2d9d4309558c08c30166a24f4b8}
+      \strng{authornamehash}{802ea2d9d4309558c08c30166a24f4b8}
+      \strng{authorfullhash}{802ea2d9d4309558c08c30166a24f4b8}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Künstliche Intelligenz}
+      \field{year}{2020}
+    \endentry
+    \entry{feedforward}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Prinzip Feedforward Netz}
+      \field{urlday}{16}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://upload.wikimedia.org/wikipedia/en/5/54/Feed_forward_neural_net.gif
+      \endverb
+      \verb{url}
+      \verb https://upload.wikimedia.org/wikipedia/en/5/54/Feed_forward_neural_net.gif
+      \endverb
+    \endentry
+    \entry{entscheidungsbaum}{online}{}
+      \field{sortinit}{6}
+      \field{sortinithash}{7851c86048328b027313775d8fbd2131}
+      \field{labeltitlesource}{title}
+      \field{title}{Binärer Entscheidungsbaum, ob ein Apfelbaum Früchte tragen wird (André Flöter)}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Entscheidungsbaum#/media/Datei:Entscheidungsbaum.svg
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Entscheidungsbaum#/media/Datei:Entscheidungsbaum.svg
+      \endverb
+    \endentry
+    \entry{entropie}{online}{}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labeltitlesource}{title}
+      \field{title}{Behind the Scenes of the Decision Tree with KNIME - KNIMETV (offizieller KNIME Youtube Kanal) - 1:49}
+      \field{urlday}{13}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=qB8HZpwqPEg
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=qB8HZpwqPEg
+      \endverb
+    \endentry
+    \entry{Schulz}{book}{}
+      \name{author}{1}{}{%
+        {{hash=62e5057a20b9c2ef58ff5336554185bc}{%
+           family={Schulz},
+           familyi={S\bibinitperiod},
+           given={Karsten},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Freudenberg Filtration Technologies SE und Co. KG}%
+      }
+      \strng{namehash}{62e5057a20b9c2ef58ff5336554185bc}
+      \strng{fullhash}{62e5057a20b9c2ef58ff5336554185bc}
+      \strng{bibnamehash}{62e5057a20b9c2ef58ff5336554185bc}
+      \strng{authorbibnamehash}{62e5057a20b9c2ef58ff5336554185bc}
+      \strng{authornamehash}{62e5057a20b9c2ef58ff5336554185bc}
+      \strng{authorfullhash}{62e5057a20b9c2ef58ff5336554185bc}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Experteninterview Filterverschleiß}
+      \field{year}{16.04.2021}
+    \endentry
+    \entry{filterfail}{article}{}
+      \name{author}{2}{}{%
+        {{hash=235b4bd9920f4db6de0ac33be1938856}{%
+           family={E.\bibnamedelimi I.\bibnamedelimi Wedman},
+           familyi={E\bibinitperiod\bibinitdelim I\bibinitperiod\bibinitdelim W\bibinitperiod},
+           given={W.L.\bibnamedelimi Gore},
+           giveni={W\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+        {{hash=049e9e13b33b5165bb504ac29972b533}{%
+           family={Inc.},
+           familyi={I\bibinitperiod},
+           given={Ass.},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ee6590f8a9017995741d474a2b72828e}
+      \strng{fullhash}{ee6590f8a9017995741d474a2b72828e}
+      \strng{bibnamehash}{ee6590f8a9017995741d474a2b72828e}
+      \strng{authorbibnamehash}{ee6590f8a9017995741d474a2b72828e}
+      \strng{authornamehash}{ee6590f8a9017995741d474a2b72828e}
+      \strng{authorfullhash}{ee6590f8a9017995741d474a2b72828e}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Powder and Bulk Solids Conference and Exhibition}
+      \field{title}{A Practical Guide to Filter Media Failure Analysis}
+      \field{year}{2001}
+    \endentry
+    \entry{rudinger}{report}{}
+      \name{author}{1}{}{%
+        {{hash=2cd916468654ea900fc8fec5c753023e}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={V.\bibnamedelimi Rüdinger},
+           giveni={V\bibinitperiod\bibinitdelim R\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Kernforschungszentrum Karlsruhe}%
+      }
+      \strng{namehash}{2cd916468654ea900fc8fec5c753023e}
+      \strng{fullhash}{2cd916468654ea900fc8fec5c753023e}
+      \strng{bibnamehash}{2cd916468654ea900fc8fec5c753023e}
+      \strng{authorbibnamehash}{2cd916468654ea900fc8fec5c753023e}
+      \strng{authornamehash}{2cd916468654ea900fc8fec5c753023e}
+      \strng{authorfullhash}{2cd916468654ea900fc8fec5c753023e}
+      \field{extraname}{1}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{High-Strength High-Efficiency Particulate Air Filters for Nuclear Applications}
+      \field{type}{techreport}
+      \field{year}{1990}
+    \endentry
+    \entry{hepa}{article}{}
+      \name{author}{1}{}{%
+        {{hash=48594320c83926a6bdb4f4293610fb3a}{%
+           family={W.\bibnamedelimi Bergman},
+           familyi={W\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={G.\bibnamedelimi Garcia},
+           giveni={G\bibinitperiod\bibinitdelim G\bibinitperiod}}}%
+      }
+      \strng{namehash}{48594320c83926a6bdb4f4293610fb3a}
+      \strng{fullhash}{48594320c83926a6bdb4f4293610fb3a}
+      \strng{bibnamehash}{48594320c83926a6bdb4f4293610fb3a}
+      \strng{authorbibnamehash}{48594320c83926a6bdb4f4293610fb3a}
+      \strng{authornamehash}{48594320c83926a6bdb4f4293610fb3a}
+      \strng{authorfullhash}{48594320c83926a6bdb4f4293610fb3a}
+      \field{sortinit}{7}
+      \field{sortinithash}{f615fb9c6fba11c6f962fb3fd599810e}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{35th International Nuclear Air Cleaning Conference}
+      \field{title}{HEPA Filter Failure Modes at Elevated Pressure, Temperature and Moisture}
+      \field{year}{2018}
+    \endentry
+    \entry{giffin}{article}{}
+      \name{author}{1}{}{%
+        {{hash=4e058f82cc5e9af13cdc3c1c4ed261f9}{%
+           family={P.\bibnamedelimi Giffin},
+           familyi={P\bibinitperiod\bibinitdelim G\bibinitperiod},
+           given={M.\bibnamedelimi Parsons},
+           giveni={M\bibinitperiod\bibinitdelim P\bibinitperiod},
+           suffix={C.\bibnamedelimi Waggoner},
+           suffixi={C\bibinitperiod\bibinitdelim W\bibinitperiod}}}%
+      }
+      \strng{namehash}{4e058f82cc5e9af13cdc3c1c4ed261f9}
+      \strng{fullhash}{4e058f82cc5e9af13cdc3c1c4ed261f9}
+      \strng{bibnamehash}{4e058f82cc5e9af13cdc3c1c4ed261f9}
+      \strng{authorbibnamehash}{4e058f82cc5e9af13cdc3c1c4ed261f9}
+      \strng{authornamehash}{4e058f82cc5e9af13cdc3c1c4ed261f9}
+      \strng{authorfullhash}{4e058f82cc5e9af13cdc3c1c4ed261f9}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Aerosol Science and Technologies}
+      \field{number}{7}
+      \field{title}{Lifecycle Testing Results of Dimple Pleat Radial Flow HEPA Filters Under Ambient and Elevated Conditions}
+      \field{volume}{47}
+      \field{year}{2013}
+    \endentry
+    \entry{seperator}{online}{}
+      \field{sortinit}{8}
+      \field{sortinithash}{1b24cab5087933ef0826a7cd3b99e994}
+      \field{labeltitlesource}{title}
+      \field{title}{Schwebstofffilter im Schnitt mit Abscheideprinzipien}
+      \field{urlday}{21}
+      \field{urlmonth}{10}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://de.wikipedia.org/wiki/Schwebstofffilter#/media/Datei:HEPA_Filter_diagram_de.svg
+      \endverb
+      \verb{url}
+      \verb https://de.wikipedia.org/wiki/Schwebstofffilter#/media/Datei:HEPA_Filter_diagram_de.svg
+      \endverb
+    \endentry
+    \entry{fbu}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{Filterbruchüberwachung Dusty}
+      \field{urlday}{3}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.envea.global/de/s/process-de/filterbruchueberwachung/dusty-c/
+      \endverb
+      \verb{url}
+      \verb https://www.envea.global/de/s/process-de/filterbruchueberwachung/dusty-c/
+      \endverb
+    \endentry
+    \entry{inst}{book}{}
+      \name{author}{1}{}{%
+        {{hash=a036f41c72be67ea25e51ef8887ca4ac}{%
+           family={J.\bibnamedelimi Reichel},
+           familyi={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           given={J.\bibnamedelimi Haeffs},
+           giveni={J\bibinitperiod\bibinitdelim H\bibinitperiod},
+           suffix={G.\bibnamedelimi Müller},
+           suffixi={G\bibinitperiod\bibinitdelim M\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg}%
+      }
+      \strng{namehash}{a036f41c72be67ea25e51ef8887ca4ac}
+      \strng{fullhash}{a036f41c72be67ea25e51ef8887ca4ac}
+      \strng{bibnamehash}{a036f41c72be67ea25e51ef8887ca4ac}
+      \strng{authorbibnamehash}{a036f41c72be67ea25e51ef8887ca4ac}
+      \strng{authornamehash}{a036f41c72be67ea25e51ef8887ca4ac}
+      \strng{authorfullhash}{a036f41c72be67ea25e51ef8887ca4ac}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Betriebliche Instandhaltung 2. Aufl.}
+      \field{year}{2018}
+    \endentry
+    \entry{hybride}{article}{}
+      \name{author}{1}{}{%
+        {{hash=9fa9c16c49170c0a38bc99359391f198}{%
+           family={al.},
+           familyi={a\bibinitperiod},
+           given={M.\bibnamedelimi Strube},
+           giveni={M\bibinitperiod\bibinitdelim S\bibinitperiod},
+           prefix={et},
+           prefixi={e\bibinitperiod}}}%
+      }
+      \strng{namehash}{9fa9c16c49170c0a38bc99359391f198}
+      \strng{fullhash}{9fa9c16c49170c0a38bc99359391f198}
+      \strng{bibnamehash}{9fa9c16c49170c0a38bc99359391f198}
+      \strng{authorbibnamehash}{9fa9c16c49170c0a38bc99359391f198}
+      \strng{authornamehash}{9fa9c16c49170c0a38bc99359391f198}
+      \strng{authorfullhash}{9fa9c16c49170c0a38bc99359391f198}
+      \field{extraname}{2}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Automation Baden-Baden}
+      \field{title}{Hybride Automatisierungslösungen - Wie die IoT-Welt und klassische Automatisierung zusammenwachsen}
+      \field{year}{2019}
+    \endentry
+    \entry{disruptive}{online}{}
+      \field{sortinit}{9}
+      \field{sortinithash}{54047ffb55bdefa0694bbd554c1b11a0}
+      \field{labeltitlesource}{title}
+      \field{title}{Disruptive Technologies Wireless Humidity Sensor}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.disruptive-technologies.com/products/wireless-sensors/wireless-humidity-sensor
+      \endverb
+      \verb{url}
+      \verb https://www.disruptive-technologies.com/products/wireless-sensors/wireless-humidity-sensor
+      \endverb
+    \endentry
+    \entry{strömsensor}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{electro-mation "low-cost" Strömungssensor, richtungsunabhängig HLK 100}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.electro-mation.de/produkte/luftgeschwindigkeit-volumenstrom/stroemungssensoren/richtungsunabhangiger-stromungssensor-hlk.html
+      \endverb
+      \verb{url}
+      \verb https://www.electro-mation.de/produkte/luftgeschwindigkeit-volumenstrom/stroemungssensoren/richtungsunabhangiger-stromungssensor-hlk.html
+      \endverb
+    \endentry
+    \entry{drucksensor}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Druck-Messumformer für Differenzdruck, digitaler Ausgang FS1200}
+      \field{urlday}{27}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.fuehlersysteme.de/druck-messumformer-fur-differenzdruck-atmospharischen-barometrischen-luftdruck-und-volumenstrom-digitaler-ausgang.html
+      \endverb
+      \verb{url}
+      \verb https://www.fuehlersysteme.de/druck-messumformer-fur-differenzdruck-atmospharischen-barometrischen-luftdruck-und-volumenstrom-digitaler-ausgang.html
+      \endverb
+    \endentry
+    \entry{webhookUBA}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Umweltbundesamt Air Data API (2.0.1)}
+      \field{urlday}{29}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.umweltbundesamt.de/daten/luft/luftdaten/doc
+      \endverb
+      \verb{url}
+      \verb https://www.umweltbundesamt.de/daten/luft/luftdaten/doc
+      \endverb
+    \endentry
+    \entry{feuchte}{thesis}{}
+      \name{author}{1}{}{%
+        {{hash=d306873d788febff8f8fba8c5c1a8d92}{%
+           family={Rickets},
+           familyi={R\bibinitperiod},
+           given={C.I.},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{institution}{1}{%
+        {Universität Karlsruhe Fak. Chemieingenieurwesen}%
+      }
+      \strng{namehash}{d306873d788febff8f8fba8c5c1a8d92}
+      \strng{fullhash}{d306873d788febff8f8fba8c5c1a8d92}
+      \strng{bibnamehash}{d306873d788febff8f8fba8c5c1a8d92}
+      \strng{authorbibnamehash}{d306873d788febff8f8fba8c5c1a8d92}
+      \strng{authornamehash}{d306873d788febff8f8fba8c5c1a8d92}
+      \strng{authorfullhash}{d306873d788febff8f8fba8c5c1a8d92}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Zum Verhalten von Schwebstofffiltern der Klasse S bei Durchströmung mit Luft hoher Feuchte}
+      \field{type}{phdthesis}
+      \field{year}{1992}
+    \endentry
+    \entry{uba_pm10}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{Umweltbundesamt Staubwerte Jahresbilanzen}
+      \field{urlday}{18}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.umweltbundesamt.de/daten/luft/luftdaten/jahresbilanzen/eJxrWpScv9BwUWXqEiMDIwMAMK0FsQ==
+      \endverb
+      \verb{url}
+      \verb https://www.umweltbundesamt.de/daten/luft/luftdaten/jahresbilanzen/eJxrWpScv9BwUWXqEiMDIwMAMK0FsQ==
+      \endverb
+    \endentry
+    \entry{reinraum}{book}{}
+      \name{author}{1}{}{%
+        {{hash=f32e4b6d8ef8257fb13b6988873c9cbd}{%
+           family={Gail\bibnamedelima L.},
+           familyi={G\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Gommel\bibnamedelima U.},
+           giveni={G\bibinitperiod\bibinitdelim U\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Springer Vieweg / VDI}%
+      }
+      \strng{namehash}{f32e4b6d8ef8257fb13b6988873c9cbd}
+      \strng{fullhash}{f32e4b6d8ef8257fb13b6988873c9cbd}
+      \strng{bibnamehash}{f32e4b6d8ef8257fb13b6988873c9cbd}
+      \strng{authorbibnamehash}{f32e4b6d8ef8257fb13b6988873c9cbd}
+      \strng{authornamehash}{f32e4b6d8ef8257fb13b6988873c9cbd}
+      \strng{authorfullhash}{f32e4b6d8ef8257fb13b6988873c9cbd}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Reinraumtechnik 4. Aufl.}
+      \field{year}{2018}
+    \endentry
+    \entry{knimehub}{online}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
+      \field{labeltitlesource}{title}
+      \field{title}{KNIME Hub}
+      \field{urlday}{10}
+      \field{urlmonth}{12}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://hub.knime.com
+      \endverb
+      \verb{url}
+      \verb https://hub.knime.com
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

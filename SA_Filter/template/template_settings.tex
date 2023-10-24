@@ -1,0 +1,333 @@
+%% In this document all settings for our template will be set to let i look like %% it does. Feel free to paly around with or modifiy if necessary. 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   				     first document settings                          %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%   
+
+%% here all many commands will be set to define the loof of the report. To made it more readable "\newcommand{}" is used. 
+
+\newcommand{\mypapersize}{A4}
+%% e.g., "A4", "letter", "legal", "executive", ...
+%% The size of the paper of the resulting PDF file.
+
+\newcommand{\mydraft}{false}%% "true" for Draftmode for koma script class
+%% "true" or "false",
+%% if "true" overfull boxes (in margin space) are marked with black box (-> easy to spot!).
+%% hyperlink from table of contents also gets disabled
+
+\newcommand{\mydraftgraphicx}{}%% "draft" for Draftmode for graphics package
+%% "draft" or "",
+%% Use draft mode? If "draft", included graphics are replaced by empty rectangles (of same size)
+
+\newcommand{\myparskip}{half}
+%% e.g., "no", "full", "half", ...
+%% How to separate paragraphs: indention ("no") or spacing ("half",
+%% "full", ...).
+
+\newcommand{\myBCOR}{0mm}
+%% Inner binding correction. This value depends on the method which is
+%% being used to bind your printed result. Some techniques do not
+%% require a binding correction at all ("0mm"), other require for
+%% example "5mm". Refer to KOMA script documentation for a detailed
+%% explanation what a binding correction is and how to measure it.
+
+\newcommand{\myfontsize}{12pt}   
+%% e.g., 10pt, 11pt, 12pt
+%% The font size of the main text in pt (points).
+
+\newcommand{\mylinespread}{1.0} 
+%% e.g., 1.0, 1.5, 2.0
+%% Line spacing in %/100. For example 1.5 means 150% of the usual line
+%% spacing. Please use with caution: 100% ("1.0") is fine because the
+%% font was designed for it.
+
+\newcommand{\mylanguage}{english, ngerman}
+%% "english,ngerman", "ngerman,english", ...
+%% NOTE: The *last* language is the active one!
+%% See babel documentation for further details.
+
+\newcommand{\mydispositioncolor}{0,82,247}
+%% e.g., "30,103,182" (blue/turquois), "0,0,0" (black), "0,82,247" HS Color,...
+%% Color of the headings and so forth in RGB (red,green,blue) values.
+
+\newcommand{\mycolorlinks}{true}  %% "true" or "false"
+%% Enables or disables colored links (hyperref package).
+
+\newcommand{\mytodonotesoptions}{}
+%% e.g., "" (empty), "disable", ...
+%% Options for the todonotes-package. If "disable", all todonotes will
+%% be hidden (including listoftodos).
+
+%% BibLaTeX-settings: (see biblatex reference for further description)
+\newcommand{\mybiblatexstyle}{authoryear}
+
+\newcommand{\mybiblatexdashed}{false}  %% "true" or "false"
+%% If true: replace recurring reference authors with a dash.
+
+\newcommand{\mybiblatexbackref}{true}  %% "true" or "false"
+%% If true: create backward links from reference to citations.
+
+\newcommand{\mybiblatexfile}{biblist.bib}
+%% Name of the biblatex file that holds the references.
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   						     Preamble                                 %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%       
+%% here the document will be defined with the settings from above
+
+\documentclass[%
+fontsize=\myfontsize,%% size of the main text
+paper=\mypapersize,  %% paper format
+parskip=\myparskip,  %% vertical space between paragraphs (instead of indenting first par-line)
+DIV=calc,            %% calculates a good DIV value for type area; 66 characters/line is great
+headinclude=true,    %% is header part of margin space or part of page content?
+footinclude=false,   %% is footer part of margin space or part of page content?
+open=right,          %% "right" or "left": start new chapter on right or left page
+appendixprefix=true, %% adds appendix prefix; only for book-classes with \backmatter
+bibliography=totoc,  %% adds the bibliography to table of contents (without number)
+draft=\mydraft,      %% if true: included graphics are omitted and black boxes
+                     %%          mark overfull boxes in margin space
+BCOR=\myBCOR,        %% binding correction (depends on how you bind
+                     %% the resulting printout.
+oneside,      		 %% oneside: document is not printed on left and right sides, only right side
+                     %% twoside: document is printed on left and right sides
+headheight=21.75pt,  %%to fix too low head foot height warning, it would be better to set interms of baselineskip, has to be changed if there header or footer parameter is modified
+footheight=21.75pt,
+headsepline,
+]{scrbook}  		 %% article class of KOMA: "scrartcl", "scrreprt", or "scrbook".
+            		 %% CAUTION: If documentclass will be changed, *many* other things change as well like heading structure, ...
+
+\usepackage[utf8]{inputenc} 	%% UTF8 as input characters
+\usepackage[\mylanguage]{babel} %% used languages; default language is *last* language of options
+\usepackage{scrlayer-scrpage} 			%% advanced page style using KOMA
+\usepackage{subfigure}
+\usepackage[subfigure]{tocloft}
+% \usepackage{wasysym}
+%\usepackage[backend=biber, 		%% using "biber" to compile references (instead of "biblatex")
+%style=\mybiblatexstyle, 		%% see biblatex documentation
+%style=alphabetic, 				%% see biblatex documentation
+%dashed=\mybiblatexdashed, 		%% do *not* replace recurring reference authors with a dash
+%backref=\mybiblatexbackref, 	%% create backlings from references to citations
+%natbib=true, 					%% offering natbib-compatible commands
+%hyperref=true, 					%% using hyperref-package references
+%]{biblatex}  					%% remove, if using BibTeX instead of biblatex
+\usepackage[style=nature,backend=biber]{biblatex}
+\addbibresource{\mybiblatexfile} %% remove, if using BibTeX instead of biblatex
+
+\usepackage[pdftex,\mydraftgraphicx]{graphicx} %% The widely used package to use graphical images within a \LaTeX{} document.
+
+\usepackage{pifont} 			%% For additional special characters available by \verb#\ding{}#
+
+\usepackage{xspace} 			%% This package is required for intelligent spacing after commands
+
+\usepackage{enumitem} 			%% This package replaces the built-in definitions for enumerate, itemize and description. With \texttt{enumitem} the user has more control over the layout of those environments.
+
+\usepackage[\mytodonotesoptions]{todonotes}  %% option "disable" removes all todonotes output from resulting document
+%% This packages is very handy to add notes "todonotes". Do read the great package documentation for usage of other very helpful commands such as \verb#\missingfigure{}# and \verb#\listoftodos#. The latter one creates an index of all open todos which is very useful for getting an overview of open issues. The package "todonotes require the packages "ifthen", "xkeyval", "xcolor", "tikz", "calc", and "graphicx". 
+
+%%\usepackage{units} 				%% For setting correctly typesetted units and nice fractions with \verb+\unit[42]{m}+ and \verb+\unitfrac[100]{km}{h}+.
+\usepackage{siunitx}
+\sisetup{
+  locale = DE,
+  per-mode = fraction,% | reciprocal | symbol | …
+  separate-uncertainty,
+  exponent-to-prefix,
+  prefixes-as-symbols = false,
+  list-units = brackets,% | single | repeat
+   range-units = brackets,% | single | repeat
+   multi-part-units = brackets,% | single | repeat
+   table-unit-alignment = left,
+}
+
+%%\usepackage{mathtools}
+\usepackage{amsmath}
+
+\usepackage{amssymb}
+
+\usepackage{soul}
+
+\definecolor{DispositionColor}{RGB}{\mydispositioncolor}     
+
+\usepackage{multirow}
+
+\usepackage{booktabs}
+
+%%Neue Listen erstellen
+\usepackage{tocloft}
+
+\usepackage{chemformula} %Chemiedignsbums
+
+\usepackage{pdfpages} %pdf Einbindung
+
+\usepackage{caption} 
+
+\usepackage[utf8]{inputenc}
+
+\usepackage{booktabs}
+
+\usepackage{tabularx}
+
+% \newcolumntype{b}{X}
+% \newcolumntype{s}{>{\hsize=.5\hsize}X}
+% \usepackage{color, colortbl}
+% \definecolor{Gray}{gray}{0.9}
+
+% \newcommand{\heading}[1]{\multicolumn{1}{|c|}{#1}}
+
+\usepackage{float}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   						 own Commands                                 %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% The classic: you can easily add graphics to your document with \verb#\myfig#:
+% \begin{verbatim}
+%  \myfig{flower}%% filename w/o extension in the folder figures
+%        {width=0.7\textwidth}%% maximum width/height, aspect ratio will be kept
+%        {This flower was photographed at my home town in 2010}%% caption
+%        {Home town flower}%% optional (short) caption for list of figures
+%        {fig:flower}%% label
+% \end{verbatim}
+% 
+% There are many advantages of this command (compared to manual
+% \texttt{figure} environments and \texttt{includegraphics} commands:
+% \begin{itemize}
+% \item consistent style throughout the whole document
+% \item easy to change; for example move caption on top
+% \item much less characters to type (faster, error prone)
+% \item less visual clutter in the \TeX{}-files
+% \end{itemize}
+% 
+% 
+\newcommand{\myfig}[6]{
+%% example:
+% \myfig{}%% filename in figures folder
+%       {htbp} h/here t/top b/bottom p/new page
+%       {width=0.5\textwidth,height=0.5\textheight}%% maximum width/height, aspect ratio will be kept
+%       {}%% caption
+%       {}%% optional (short) caption for list of figures
+%       {}%% label
+\begin{figure}[#2]%% [htbp]
+  \begin{center}
+     \includegraphics[keepaspectratio,#3]{images/#1}
+     \caption[#5]{#4}
+     \label{#6} %% NOTE: always label *after* caption!
+  \end{center}
+\end{figure}
+}
+
+
+%% highlight text in red color
+\newcommand{\myhlr}[1]{%
+	\textcolor{red}{\textbf{\textit{#1 }}}%
+	}
+	
+%% highlight text in green color
+\newcommand{\myhlg}[1]{%
+	\textcolor{green}{\textbf{\textit{#1 }}}%
+	}
+%%Formelverzeichnis
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\listequationsname}{Formelverzeichnis}
+\newlistof{myequations}{equ}{\listequationsname}
+\newcommand{\myequations}[1]{%
+\addcontentsline{equ}{myequations}{\protect\numberline{\theequation}#1}\par}
+  
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   						 typographic Settings                          %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% modify distance to header and footer
+\addtolength{\topmargin}{-1.5cm}
+\addtolength{\textheight}{4cm}
+%\addtolength{\textwidth}{2cm}
+%\hoffset = -1cm
+\footskip = 1cm
+\flushbottom
+
+\usepackage[protrusion=true,factor=900]{microtype}
+\frenchspacing
+
+\usepackage{mathpazo} %% without small caps and old style numbers
+
+% This document template is able to generate an output that uses colorized
+% headings, captions, page numbers, and links. The color named `DispositionColor'
+% used in this document is defined near the definition of package \texttt{color}
+% in the preamble. The changes required
+% for headings, page numbers, and captions are defined here.
+% 
+% Settings for colored links are handled by the definitions of the
+% \texttt{hyperref} package (see section~\ref{sec:pdf}).
+% 
+\renewcommand{\headfont}{\normalfont\sffamily\color{DispositionColor}}
+\renewcommand{\pnumfont}{\normalfont\sffamily\color{DispositionColor}}
+\addtokomafont{disposition}{\color{DispositionColor}}
+\addtokomafont{caption}{\color{DispositionColor}\footnotesize}
+\addtokomafont{captionlabel}{\color{DispositionColor}}
+
+\RedeclareSectionCommand[ 
+  beforeskip=-1sp, 
+  afterskip=6bp 
+]{section}
+
+\RedeclareSectionCommand[ 
+  beforeskip=-18bp, 
+  afterskip=1sp 
+]{subsection}
+
+\RedeclareSectionCommand[ 
+  beforeskip=-18bp, 
+  afterskip=1sp  
+]{subsubsection}
+
+\RedeclareSectionCommand[ 
+  beforeskip=-18bp, 
+  afterskip=1sp 
+]{paragraph}
+
+\usepackage{enumitem}
+\setlist{noitemsep}   %% kills the space between items
+
+
+\usepackage[babel=true,strict=true,english=american,german=quotes]{csquotes}
+
+%Abkürzungsverzeichnis
+\usepackage[printonlyused]{acronym}
+
+% If you have to enlarge the distance between two lines of text, you can
+% increase it using the "\mylinespread" command. By default, it is
+% deactivated (set to 100~percent). Modify only with caution since it influences the page layout and could lead to ugly looking documents.
+\linespread{\mylinespread}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%   						 PDF Settings                                 %%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%    
+ \pdfcompresslevel=9
+
+\usepackage[%
+unicode=true, % loads with unicode support
+%a4paper=true, %
+%pdftex=true, %
+backref, %
+pagebackref=false, % creates backward references too
+bookmarks=true, %
+bookmarksopen=true, % when starting with AcrobatReader, the Bookmarkcolumn is opened
+pdfpagemode=UseNone,% None, UseOutlines, UseThumbs, FullScreen
+plainpages=false, % correct, if pdflatex complains: ``destination with same identifier already exists''
+%% colors: https://secure.wikimedia.org/wikibooks/en/wiki/LaTeX/Colors
+urlcolor=DispositionColor, %%
+linkcolor=DispositionColor, %%
+%pagecolor=DispositionColor, %%
+citecolor=DispositionColor, %%
+anchorcolor=DispositionColor, %%
+colorlinks=\mycolorlinks, % turn on/off colored links (on: better for
+                          % on-screen reading; off: better for printout versions)
+]{hyperref}
+
+

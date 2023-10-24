@@ -1,0 +1,152 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%																			   %%
+%%  This template is created by Jan Boelmann and ShashiKiran ShivarKumar 	   %%
+%%  Honnali and its based on the Koma template by Karl Void 				   %%
+%%																			   %%
+%%  for further informations please contact: jan.boelmann@hs.bremerhaven.de    %%
+%%																			   %%
+%%																			   %%
+%%																			   %%
+%% Version 19.November 2016                                                    %%
+%% -Added tutorial on figures in chaper 1 and tables in chapter 2              %%
+%%                                                                             %%
+%% 08.December.2016                                                            %%
+%% -fixed warnings on head height is too low. DIV 11 may be appropriate, calc  %%
+%%  is less                                                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%versionsdatum 15.03.17
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% 							Loading parameter 							%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% This will load the parameter of the template like font, size etc.
+%% the command "\input{}" loads a file without showing it in the document.
+\input{template/template_settings}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% 							Your metadata 								%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%% set here your title
+\newcommand{\mytitle}{KI-gestütze Überwachung von Luftfiltern} 
+
+%% whos your professor, supervisor?
+\newcommand{\myProfessor}{Martin Strube}
+
+%% set here your course name
+\newcommand{\myStudyCourse}{Maschinenbau - Vertiefung Mechatronik}
+
+%% type in the author/authors (if more than one, separate with \\ for newline)
+%% If more than six Authors have a look into the titlepage document to change the
+%% framesettings
+\newcommand{\myauthor}{Jan-Hinrich Eymers}
+
+%% type here your matriculation number (if more than one, separate with \\)
+\newcommand{\myMatNumber}{70468030}
+
+%% here the date will be set. By default it is \today (date of last compilation 
+%% will be used) you can type in a date in 
+%% format like (DD.MM.YYYY or DD. Month YYYY)
+\newcommand{\myDate}{\today}
+
+\newcommand{\acrounit}[1]{
+  \acroextra{
+	  \hspace{15mm}\makebox[25mm][l]{\si[]{#1}}}
+}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% 						Load here your documents			     		%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+%% start document
+
+\begin{document}
+
+
+\frontmatter                   				%% define parts with no pagenumbers
+%% KOMA: roman page numbers and such; only available in scrbook
+
+
+
+\include{template/titlepage} 				%% load titlepage
+%% With "\include{}" you load the file with showing it in document
+
+\cleardoublepage
+
+%% include the abstract (Englisch) without chapter number but include it on table of contents. 
+%% You can comment this out if not needed
+
+\tableofcontents	  							%% create table of contents
+\cleardoublepage
+                    			%% define your main part
+%% KOMA: marks main part using arabic page numbers and such; only available in scrbook
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%  Add here your chapters  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%\include{chap_documentation}				%% load chapter 1
+%\include{chap_second_example}				%% load chapter 2
+%\include{...}								%% load next chapter etc...
+%% the oder of the chapters will be as the oder of includeing here. So you will not need to write the chapter/section number by your own. 
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\listoffigures  % How do we get this in english	%% create list of figures
+%% should be here if needed. If not needed just comment this out.
+%\listofmyequations
+\cleardoublepage
+
+\listoftables
+
+\cleardoublepage
+
+\include{template/Acronym}
+
+
+\mainmatter  
+
+\include{chapters/01Einleitung}
+
+\include{chapters/02Aufgabenstellung}
+
+\include{chapters/03TheoretischeGrundlagen}
+
+\include{chapters/04Filterauswahl}
+
+\include{chapters/05Filterverschleiß}
+
+\include{chapters/06StandDerTechnik}
+
+\include{chapters/07Konzepterstellung}
+
+\include{chapters/08Validierung}
+
+\include{chapters/09Schlussbetrachtung}
+
+\include{template/Quellenverzeichnis}
+
+ 
+ %\include{template/Berechnung}
+
+
+	 % How do we get this in english	%% create list of figures
+%% should be here if needed. If not needed just comment this out.
+
+\newpage
+
+%\listofmyequations
+
+\printbibliography[title={Quellenverzeichnis}] 		%% create list of references
+%% If you are writing a german report, you can use [title={Literaturverzeichnis}] insted. 	
+
+%\appendix                       			%% closes main document, 
+%% appendix follows until end; only available in book-classes
+\addpart{Anhang}            				%% adding Appendix to tableofcontents
+\includepdf[pages=-]{pdf/E11}
+\includepdf[pages=-]{pdf/F7}
+\includepdf[pages=-]{pdf/G4}
+%\includegraphics{pdf/E11.pdf}
+%% end of document
+\end{document}

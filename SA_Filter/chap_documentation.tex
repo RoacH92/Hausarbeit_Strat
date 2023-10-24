@@ -1,0 +1,59 @@
+\chapter{Dokumentation zu dieser Vorlage} %% create a new chapter
+\label{chap:Documentation}	%% use always a label to be able to refer to it later
+
+Diese Vorlage gibt euch die Möglichkeit einen Bericht in \LaTeX \hl{zu} schreiben auch ohne große Kenntnisse mit der Textsetzungsumgebung zu haben. Die Befehle sind an den meisten Stellen kommentiert und die Handhabung entsprechend dokumentiert. 
+
+\section{Über die Vorlage} %% create a section inside a chapter
+\label{sec:WoKommtDasTempHer}
+
+Die Vorlage basiert zu großen Teilen auf die Vorlage zum schreiben einer Abschlussarbeit von Karl Voit von der TU Graz. Für mehr Informationen findet ihr hier die Dokumentation zu dem Projekt auf der Homepage der TU Graz (
+\href{https://github.com/novoid/LaTeX-KOMA-template}{https://github.com/novoid/LaTeX-KOMA-template}). %% use "\href{link}{text}" to highlight an crate a URL link in text (Color of link is set in settings)
+Seine Umfangreiche Dokumentation zu der Vorlage findet ihr auch in dem Ordner \enquote{template/Dokumentation.pdf}. Diese Beschreibt den nutzen der eingesetzten Befehle sehr gut und geht auf weitere Hintergründe zu dem Einsatz  des jeweiligen Befehls ein. Das Koma Scipt findet der Interessierte ebenfalls unter \enquote{template/Koma-Script.pdf}. Da der Einsatz der Vorlage der TU Graz ein gewisses Wissen über LaTex voraussetzt haben wir es für unsere Zwecke entsprechend angepasst.
+
+
+\section{Was muss ich Wissen?}
+\label{sec:WasMussIchWissen}
+
+Wie oben schon beschreiben müsst ihr nicht viel wissen um einen ersten Erfolg zu sehen. Wir haben alles gut dokumentiert und ihr könnt die Kapitel Kopieren und/oder als Vorlage benutzen. Die Wichtigsten Befehle sind hier als Beispiel in die Beschreibung eingebaut. Wie Bilder, Tabellen, Zitationen, Inhaltsverzeichnis, Formeln und so weiter. 
+Die \todo{So sehen todo notes aus} %% use "\todo{}" for notes (see settings for more information
+(MES) Hochschul Vorlage setzt nur geringe Kenntnisse im Bereich \LaTeX voraus und der Einstieg sollte hiermit leicht gelingen. Dennoch ist es zu empfehlen sich über den Nutzen und den Einsatz von \LaTeX ein gewisses Grundwissen anzueignen um zu verstehen wie es arbeitet. Hier empfiehlt sich der Blick auf die Homepage der TU Graz die dort eine wirklich gute Einführung in \LaTeX bieten, zu finden ist sie hier: \linebreak \href{http://latex.tugraz.at/latex/warum}{http://latex.tugraz.at/latex/warum}. 
+
+ 	
+\subsection{Systemvoraussetzungen} %% create a subsection inside a section
+\label{subsec:Systemvoraustestungen}
+
+Um LaTex zu verwenden sind ein Editor \myhlr{(das kann im einfachsten Fall} \myhlg{der Editor von Windows sein)} %% with "\myhlr{}" you can highlight text red or grenn (see settings/mycommands)
+und ein Compiler der den Text setzt notwendig. Gängige Editoren sind TexEdit, TexStudio oder TexLive. Für den Compiler könnt ihr  \href{https://www.tug.org/texworks/}{TexWorks} oder für den Mac, \href{https://tug.org/mactex/}{MacTex} verwenden. \hl{alternativ} %% use "\hl{}" to highlight text in yellow (settings) (NUR OHNE UMLAUTE MÖGLICH)
+gibt es auch Browser basierte Editoren wie \href{https://www.overleaf.com}{Overleaf.com} (hier findet ihr auch viele weitere Vorlagen) mit denen ihr ein Dokument erstellen könnt. Vorteile sind dabei, dass keine Installationen von Programmen notwendig sind und die Dokumente von Überall aufrufen werden können. Auch die Zusammenarbeit mit mehreren Autoren ist sehr einfach gestaltet, in dem mehrere Personen an einen Dokument arbeiten können und jeder die entsprechenden Änderungen in deinem Verlauf nachvollziehen kann. Nachteil ist natürlich die Abhängigkeit des Internetzugangs, dieses kann allerdings durch das Herunterladen der Dateien umgangen werden. 
+
+
+\subsection{Zur Nutzung dieser Vorlage}
+\label{subsec:ZurNutzungDiesesTemplates}
+
+Diese Vorlage ist in vier Bereiche aufgeteilt. Zu aller erst haben wir das Dokument \enquote{main.tex}. In diesem Dokument wird der Bericht aus den Einzelteilen zusammengesetzt und ihr könnt eure Metadaten eingeben. Die Form und die Einstellungen des Berichts sind in dem Ordner \enquote{template} im Dokument \enquote{template\_settings.tex} zu finden. Dem erfahrenen Nutzer ist ein Blick hierein durchaus zu empfehlen. Alle Parameter wie Papiergröße, Schriftgröße oder Zeilenabstand sind hier zu finden. Die Einstellungen des Titelblatts sind im Dokument \enquote{titlepage.tex} zu finden. Bilder und Graphiken die ihr nutzen wollt, solltet ihr in dem Ordner \enquote{images} speichern. Die Kapitel und die Literaturangabe gehören in den Hauptordner. Ihr findet hier zwei Beispiel Kapitel mit mehreren Abschnitten die euch helfen sollen dieses Template zu nutzen. In einem der beiden befindet ihr euch bereits. Wenn ihr weitere Kapitel einfügen wollt könnt ihr entsprechend diese Dokumente klonen oder eine neues *.tex Dokument erstellen. Dies ist auch der größte Vorteil von \LaTeX in der gemeinsamen Bearbeitung von Berichten. Jeder Autor braucht seinen Teil nur in einer eigenen Datei erstellen und im main.tex Dokument kann alles in einer Formatierung zusammen gefasst werden. 
+
+\newpage %% here we want to have a new page 
+\subsubsection{Was hier steht, steht nicht im Inhaltsverzeichnis} %% create a subsection inside a subsection (this will cause a captioning but no entry in table of content and no section number)
+\label{subsubSec:HierMussWasHin}
+
+Hier muss halt was stehen so wie im Kapitel \ref{sec:WasMussIchWissen}. Und es ist so wichtig das es auf eine neue Seite soll. Und wenn wir schon dabei sind fügen wir noch ein Bild ein.
+
+ \myfig{statistics}
+        {h} 			  %% where to plot (h,t,b,p) see template settings
+        {width=1\textwidth,height=1\textheight} %% set fig size
+        {Das Diagramm zeigt eine die Regionen des Gehirns die ein Student während des Lesens einer Klausuraufgabe anregt. Deutlich zu erkennen ist eine Häufung der Aktivität in der mittleren X-Achse über die ganze Y-Achse in Form eines Fragezeichens. Die Farben (Rot, Schwarz, Gelb) stehen für unterschiedliche Fragen} %% Description of figure (should be a stand alone information)
+        {Statistic zur Aktivität des Gehirns} %% Name of fig for table of figures
+        {fig:StatisticGehirnStudent}		  %% Label for reference
+        
+Die Abbildung \ref{fig:StatisticGehirnStudent} zeigt die Regionen des Gehirns die ein Student während des Lesens einer Klausuraufgabe anregt. Deutlich zu erkennen ist eine Häufung der Aktivität in der mittleren X-Achse über die ganze Y-Achse in Form eines Fragezeichens. Die Farben (Rot, Schwarz, Gelb) stehen für unterschiedliche Fragen.
+
+\hl{Hier muss noch ein Zitat rein} \autocite{Boelmann} \todo{Zitat}
+
+Irgendwann hat auch das beste Kapitel mal ein Ende und es muss ein neues Beginnen.
+        
+
+
+
+
+
+

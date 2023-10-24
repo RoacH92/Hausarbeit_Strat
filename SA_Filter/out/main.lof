@@ -1,0 +1,77 @@
+\boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
+\babel@toc {ngerman}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Tiefen- und Oberflächenfiltration}}{6}{figure.caption.9}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Klassifikation Filtrationsprozesse}}{6}{figure.caption.10}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Fraktionsabscheidegrad verschiedener Abscheidesysteme}}{8}{figure.caption.15}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Unterschiedliche Verfahrensprinzipien zur Staub- und Aerosolabscheidung; Quellen: \ref {fi:zyklon} - \cite {zyklon}; \ref {fi:venturi} - \cite {venturi}; \ref {fi:elektroabscheider} - \cite {immission}; \ref {fi:filterelemente} - \cite {filterelemente} \relax }}{10}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Zyklon}}}{10}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Venturiwäscher}}}{10}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Elektroabscheider}}}{10}{figure.caption.16}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Filterelemente}}}{10}{figure.caption.16}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Siebwirkung}}{11}{figure.caption.17}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Prinzipskizzen von Filtereffekten, welche bei der Partikelabscheidung mit Faserfiltern auftreten \relax }}{12}{figure.caption.18}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Trägheitseffekt}}}{12}{figure.caption.18}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Sperreffekt}}}{12}{figure.caption.18}%
+\contentsline {subfigure}{\numberline {(c)}{\ignorespaces {Diffusionseffekt}}}{12}{figure.caption.18}%
+\contentsline {subfigure}{\numberline {(d)}{\ignorespaces {Elektrostatische Anziehung}}}{12}{figure.caption.18}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Filterklassen}}{14}{figure.caption.22}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Filtergruppen ISO 16890}}{14}{figure.caption.23}%
+\contentsline {figure}{\numberline {3.9}{\ignorespaces Filterklassen Schwebstoffe}}{15}{figure.caption.27}%
+\contentsline {figure}{\numberline {3.10}{\ignorespaces Regelungsarten Luftstrom}}{17}{figure.caption.28}%
+\contentsline {figure}{\numberline {3.11}{\ignorespaces Prusament}}{19}{figure.caption.34}%
+\contentsline {figure}{\numberline {3.12}{\ignorespaces Beispiel IIoT}}{20}{figure.caption.40}%
+\contentsline {figure}{\numberline {3.13}{\ignorespaces Feedforward Netz}}{23}{figure.caption.45}%
+\contentsline {figure}{\numberline {3.14}{\ignorespaces Binärer Entscheidungsbaum}}{25}{figure.caption.47}%
+\contentsline {figure}{\numberline {3.15}{\ignorespaces Darstellung Entropie}}{25}{figure.caption.48}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Druckverlust abreinigende Filter}}{27}{figure.caption.49}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Typische Klimazentrale}}{29}{figure.caption.50}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Unterschiedliche Schadenarten an Filtern. Abb. \ref {fi:schaden_berst} bis \ref {fi:schaden_seperator} nach Rüdinger \cite {rudinger}; Abb. \ref {fi:schaden_rand} nach Bergmann \cite {hepa} \relax }}{31}{figure.caption.51}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Filterkollaps}}{32}{figure.caption.52}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Gegenmaßnahmen Filterkollaps \relax }}{33}{figure.caption.53}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Klassifizierung von Außenluft}}{35}{figure.caption.55}%
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {7.1}{\ignorespaces Feuchtesensor}}{42}{figure.caption.58}%
+\contentsline {figure}{\numberline {7.2}{\ignorespaces Strömungssensor}}{43}{figure.caption.59}%
+\contentsline {figure}{\numberline {7.3}{\ignorespaces Differenzdruck Messumformer}}{44}{figure.caption.60}%
+\contentsline {figure}{\numberline {7.4}{\ignorespaces Architektur des Konzepts}}{45}{figure.caption.61}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {8.1}{\ignorespaces Aufbau Simulation}}{48}{figure.caption.62}%
+\contentsline {figure}{\numberline {8.2}{\ignorespaces Simulation der Vorfilter}}{49}{figure.caption.63}%
+\contentsline {figure}{\numberline {8.3}{\ignorespaces Außenluft Zusammensetzung}}{49}{figure.caption.64}%
+\contentsline {figure}{\numberline {8.4}{\ignorespaces Parameter HEPA Filter Bergmann}}{51}{figure.caption.65}%
+\contentsline {figure}{\numberline {8.5}{\ignorespaces M-file Simulink}}{52}{figure.caption.67}%
+\contentsline {figure}{\numberline {8.6}{\ignorespaces Simulation E11 Filter}}{53}{figure.caption.68}%
+\contentsline {figure}{\numberline {8.7}{\ignorespaces Subsystem Filterleistung}}{53}{figure.caption.69}%
+\contentsline {figure}{\numberline {8.8}{\ignorespaces Subsystem Druckdifferenz Beladung}}{54}{figure.caption.70}%
+\contentsline {figure}{\numberline {8.9}{\ignorespaces Einflussparameter Ricketts}}{55}{figure.caption.71}%
+\contentsline {figure}{\numberline {8.10}{\ignorespaces Materialfeuchte rel. Luftfeuchte}}{56}{figure.caption.72}%
+\contentsline {figure}{\numberline {8.11}{\ignorespaces Differenzdruckverläufe Filterproben}}{57}{figure.caption.74}%
+\contentsline {figure}{\numberline {8.12}{\ignorespaces Subsystem Druckdifferenz Feuchte}}{58}{figure.caption.75}%
+\contentsline {figure}{\numberline {8.13}{\ignorespaces Simulierter Verlauf der Druckdifferenz am E11 Filter}}{59}{figure.caption.76}%
+\contentsline {figure}{\numberline {8.14}{\ignorespaces Subsystem Filterkollaps}}{60}{figure.caption.79}%
+\contentsline {figure}{\numberline {8.15}{\ignorespaces Subsystem Filterbruch}}{61}{figure.caption.80}%
+\contentsline {figure}{\numberline {8.16}{\ignorespaces Simulierter Verlauf der Überlastspannung am E11 Filter}}{62}{figure.caption.81}%
+\contentsline {figure}{\numberline {8.17}{\ignorespaces Subsystem Feuchte Tagesverlauf}}{63}{figure.caption.82}%
+\contentsline {figure}{\numberline {8.18}{\ignorespaces Simulierter Verlauf der rel. Feuchte}}{64}{figure.caption.83}%
+\contentsline {figure}{\numberline {8.19}{\ignorespaces M-file Simulationsreihen}}{65}{figure.caption.84}%
+\contentsline {figure}{\numberline {8.20}{\ignorespaces KNIME Übersicht}}{66}{figure.caption.85}%
+\contentsline {figure}{\numberline {8.21}{\ignorespaces KNIME Import Metanode}}{66}{figure.caption.86}%
+\contentsline {figure}{\numberline {8.22}{\ignorespaces KNIME Filter Metanode}}{67}{figure.caption.87}%
+\contentsline {figure}{\numberline {8.23}{\ignorespaces KNIME Lag Metanode}}{67}{figure.caption.88}%
+\contentsline {figure}{\numberline {8.24}{\ignorespaces KNIME Normalizing Metanode}}{68}{figure.caption.89}%
+\contentsline {figure}{\numberline {8.25}{\ignorespaces KNIME DTL Baum}}{69}{figure.caption.90}%
+\contentsline {figure}{\numberline {8.26}{\ignorespaces KNIME Vorhersagetabelle}}{69}{figure.caption.91}%
+\contentsline {figure}{\numberline {8.27}{\ignorespaces Wertung (Score) und gefilterte Wertung der Vorhersage durch Scorer Nodes in KNIME \relax }}{70}{figure.caption.92}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {9.1}{\ignorespaces KNIME Vergleich Vorhersage mit Simulationswerten}}{72}{figure.caption.93}%
+\contentsline {subfigure}{\numberline {(a)}{\ignorespaces {Wertung (Score) der Vorhersage in KNIME}}}{72}{figure.caption.93}%
+\contentsline {subfigure}{\numberline {(b)}{\ignorespaces {Wertung (Score) der Vorhersage in KNIME ohne den Fall OK/OK}}}{72}{figure.caption.93}%
+\contentsline {figure}{\numberline {9.2}{\ignorespaces KNIME Zeitgewinn durch Vorhersage}}{72}{figure.caption.94}%
+\addvspace {10\p@ }
